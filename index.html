@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- <meta name="viewport" content="width=device-width, initial-scale=1.0"> -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+    integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+  <!-- Compiled and minified CSS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+  <!-- Style link for Materiialize CSS Icons -->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./style.css">
+  <title>Portfolio</title>
+</head>
+
+<body>
+
+  <div class="navbar-fixed">
+    <nav>
+      <div class="nav-wrapper">
+        <a href="#!" class="brand-logo">Mark Heil's Portfolio</a>
+        <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+        <ul class="right hide-on-med-and-down">
+          <li><a href="sass.html">About Me</a></li>
+          <li><a href="badges.html">Group Projects</a></li>
+          <li><a href="collapsible.html">Portfolio</a></li>
+          
+        </ul>
+      </div>
+    </nav>
+  
+    <ul class="sidenav" id="mobile-demo">
+      <li><a href="sass.html">Sass</a></li>
+      <li><a href="badges.html">Group Projects</a></li>
+      <li><a href="collapsible.html">Portfolio</a></li>
+    </ul>
+  </div>
+
+  <div class="parallax-container">
+    <div class="parallax">
+      <img src="./images/parallax4.jpg">
+    </div>
+  </div>
+
+  <div class="row justify-content-center" id="about-bg">
+    <div class="row no-gutters">
+      <div class="col-md-1"></div>
+      <div class="col-md-3">
+        <img src="./images/mark.jpg" class="circle responsive-img z-depth-5" id="mark-img" alt="mark.jpg">
+      </div>
+      <div class="col-md-1"></div>
+      <div class="col-md-6 valign-wrapper" id="white-bg">
+        <div class="card-body" id="white-bg">
+          <h5 class="card-title" id="mark-txt">Mark Heil</h5>
+          <p class="card-text valign-wrapper" id="about-txt">
+            Hello, I am an up and coming Web Developer with a
+            Printing and Publishing background.
+
+            Originally from Wisconsin, I moved out west here to Seattle in 2016
+            to seek adventure and new opportunities. Outside of my work I am a family man,
+            love to travel, enjoy watching movies, playing video games and cooking.</p>
+        </div>
+      </div>
+      <div class="col-md-1"></div>
+    </div>
+  </div>
+
+  <div class="parallax-container">
+    <div class="parallax">
+      <img src="./images/parallax4.jpg">
+    </div>
+  </div>
+
+
+  <div class="container">
+    <!-- <h1 class="center-align">Group Projects</h1> -->
+    <div class="row">
+      <div class="col s12 m6">
+        <div class="card">
+          <div class="card-image">
+            <img class="responsive-img" src="images/findnextgig.jpg">
+            <span class="card-title" id="project-txt">Find Next Gig</span>
+            <a class="btn-floating halfway-fab waves-effect waves-light blue"><i class="material-icons">add</i></a>
+          </div>
+          <div class="card-content">
+            <p>My first group project in UW Coding Bootcamp. We developed a web based application
+              that allowed the user to type in the name of a band, then it would display information for their next gig.
+              It would also give a map display and put a pin on the city of the next gig.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col s12 m6">
+        <div class="card">
+          <div class="card-image">
+            <img class="responsive-img" src="images/watcher.jpg">
+            <span class="card-title" id="project-txt">Watcher</span>
+            <a class="btn-floating halfway-fab waves-effect waves-light blue"><i class="material-icons">add</i></a>
+          </div>
+          <div class="card-content">
+            <p>My second group project in UW Coding Bootcamp. We developed a neighborhood watch type application
+              that allowed the user to input their name, and post a message. The message would appear in a feed,
+              and the location of where it was posted on map display.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <div class="parallax-container">
+    <div class="parallax">
+      <img src="./images/parallax4.jpg">
+    </div>
+  </div>
+
+
+
+
+
+  <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+  <script src="script.js"></script>
+</body>
+<!-- <footer>
+  <div class="section white">
+    <div class="row container">
+     <p class="grey-text text-darken-3 lighten-3"> Cebu CM Solutions
+Outside      quis augue ac sem suscipit laoreet in quis ipsum. Curabitur enim sapien
+    </p>
+   </div>
+  </div>
+</footer> -->
+
+</html>
