@@ -29,11 +29,11 @@
         </ul>
       </div>
     </nav>
-    <ul class="sidenav" id="mobile-demo">
-      <li><a href="./index.html#about">About Me</a></li>
-      <li><a href="./index.html#group">Group Projects</a></li>
-      <li><a href="./index.html#portfolio">Portfolio</a></li>
-    </ul>
+    <!-- <ul class="sidenav" id="mobile-demo">
+      <li><a href="#about">About Me</a></li>
+      <li><a href="#group">Group Projects</a></li>
+      <li><a href="#portfolio">Portfolio</a></li>
+    </ul> -->
   </div>
   <!-- parallax -->
   <div class="parallax-container">
@@ -50,19 +50,21 @@
         <img src="./images/mark.jpg" class="circle responsive-img z-depth-5" id="mark-img" alt="mark.jpg">
       </div>
       <div class="col-md-1"></div>
-      <div class="col-md-6 valign-wrapper" id="white-bg">
-        <div class="card-body" id="white-bg">
+      <div class="col-md-6 valign-wrapper">
+        <div class="card-body">
           <h5 class="card-title" id="mark-txt">Mark Heil</h5>
-
-         
-          
-
           <p class="card-text valign-wrapper" id="about-txt">
             Hello, I am an up and coming Web Developer with a
             Printing and Publishing background.
             Originally from Wisconsin, I moved out west here to Seattle in 2016
             to seek adventure and new opportunities. Outside of my work I am a family man,
             love to travel, enjoy watching movies, playing video games and cooking.</p>
+          <ul>
+            <a href="https://github.com/Merkraith"><img src="./images/github.png" class="about-btn"></a>
+            <a href="https://www.linkedin.com/in/mark-heil-89b82910b/"><img src="./images/linkedin1.png" class="about-btn"></a>
+            <a href="./files/mhresume.pdf"><img src="./images/resume.png" class="about-btn"></a>
+          </ul>
+      
         </div>
       </div>
       <div class="col-md-1"></div>
@@ -77,18 +79,18 @@
   <!-- parallax -->
   <div id="group"></div>
   <div class="container">
-    <h2 class="center-align">Group Projects</h2>
     <div class="row">
       <!-- first card -->
       <div class="col s12 m6">
         <div class="card">
           <div class="card-image">
             <img class="responsive-img" src="images/findnextgig.jpg">
-            <span class="card-title" id="project-txt">Find Next Gig</span>
             <a href="https://merkraith.github.io/Band-Tour-Manager/"
-              class="btn-floating halfway-fab waves-effect waves-light blue"><i class="material-icons">web</i></a>
+              class="btn-floating btn-large halfway-fab waves-effect waves-light blue"><i
+                class="material-icons">web</i></a>
           </div>
           <div class="card-content">
+            <span class="card-title" id="title-text">Find Next Gig</span>
             <p>My first group project in UW Coding Bootcamp. We developed a web based application
               that allowed the user to type in the name of a band, then it would display information for their next gig.
               It would also give a map display and put a pin on the city of the next gig.
@@ -101,11 +103,12 @@
         <div class="card">
           <div class="card-image">
             <img class="responsive-img" src="images/watcher.jpg">
-            <span class="card-title" id="project-txt">Watcher</span>
             <a href="https://quiet-shelf-40896.herokuapp.com/"
-              class="btn-floating halfway-fab waves-effect waves-light blue"><i class="material-icons">web</i></a>
+              class="btn-floating btn-large halfway-fab waves-effect waves-light blue"><i
+                class="material-icons">web</i></a>
           </div>
           <div class="card-content">
+            <span class="card-title" id="title-text">Watcher</span>
             <p>My second group project in UW Coding Bootcamp. We developed a neighborhood watch type application
               that allowed the user to input their name, and post a message. The message would appear in a feed,
               and the location of where it was posted on map display.
@@ -123,76 +126,94 @@
   </div>
   <!-- parallax -->
   <div id="portfolio"></div>
-  <div class="row justify-content-center align-items">
-    <!-- row of 4 cards -->
-    <div class="card">
-      <div class="card-image waves-effect waves-block waves-light">
-        <img class="activator" src="./images/pwgen.jpg">
+  <div class="container">
+    <div class="row">
+      <!-- first card -->
+      <div class="col s12 m6">
+        <div class="card">
+          <div class="card-image">
+            <img class="responsive-img" src="images/pwgen.jpg">
+            <a href="https://merkraith.github.io/The-Amazing-Password-Generator/"
+              class="btn-floating btn-large halfway-fab waves-effect waves-light blue""><i class="
+              material-icons">web</i></a>
+          </div>
+          <div class="card-content">
+            <span class="card-title" id="title-text2">Password Generator</span>
+            <p>The Amazing Password Generator has the user answer several prompted questions on what they want or do not
+              want
+              included in their password, then generates them the password.
+            </p>
+          </div>
+        </div>
       </div>
-      <div class="card-content">
-        <span class="card-title activator grey-text text-darken-4">Password Generator<i
-            class="material-icons right">more_vert</i></span>
-        <p><a href="#">This is a link</a></p>
-      </div>
-      <div class="card-reveal">
-        <span class="card-title grey-text text-darken-4">Password Generator<i
-            class="material-icons right">close</i></span>
-        <p>This is a simple quiz, written in javascript with a classic Final Fantasy theme. It is a timed quiz
-          and each wrong question deducts time. Remaining time left results in your score.</p>
-      </div>
-    </div>
-    <!-- end card -->
-    <div class="card">
-      <div class="card-image waves-effect waves-block waves-light">
-        <img class="activator" src="./images/ffquiz.jpg">
-      </div>
-      <div class="card-content">
-        <span class="card-title activator grey-text text-darken-4">Final Fantasy Quiz<i
-            class="material-icons right">more_vert</i></span>
-        <p><a href="#">This is a link</a></p>
-      </div>
-      <div class="card-reveal">
-        <span class="card-title grey-text text-darken-4">Final Fantasy Quiz<i
-            class="material-icons right">close</i></span>
-        <p>This is a simple quiz, written in javascript with a classic Final Fantasy theme. It is a timed quiz
-          and each wrong question deducts time. Remaining time left results in your score.</p>
-      </div>
-    </div>
-    <!-- end card -->
-    <div class="card">
-      <div class="card-image waves-effect waves-block waves-light">
-        <img class="activator" src="./images/workdayplanner.jpg">
-      </div>
-      <div class="card-content">
-        <span class="card-title activator grey-text text-darken-4">Workday Planner<i
-            class="material-icons right">more_vert</i></span>
-        <p><a href="#">This is a link</a></p>
-      </div>
-      <div class="card-reveal">
-        <span class="card-title grey-text text-darken-4">Workday Planner<i class="material-icons right">close</i></span>
-        <p>This is a simple quiz, written in javascript with a classic Final Fantasy theme. It is a timed quiz
-          and each wrong question deducts time. Remaining time left results in your score.</p>
+      <!-- second card -->
+      <div class="col s12 m6">
+        <div class="card">
+          <div class="card-image">
+            <img class="responsive-img" src="images/workdayplanner.jpg">
+            <a href="https://merkraith.github.io/Work-Day-Planner/"
+              class="btn-floating btn-large halfway-fab waves-effect waves-light blue"><i
+                class="material-icons">web</i></a>
+          </div>
+          <div class="card-content">
+            <span class="card-title" id="title-text">Workday Planner</span>
+            <p>The Workday Planner lets the user write notes for each hours of the work day.
+              It is color coded for hours past, the present hour, and upcoming hours. Clear notes and use it again.
+            </p>
+          </div>
+        </div>
       </div>
     </div>
-    <!-- end card -->
-    <div class="card">
-      <div class="card-image waves-effect waves-block waves-light">
-        <img class="activator" src="./images/weather.jpg">
-      </div>
-      <div class="card-content">
-        <span class="card-title activator grey-text text-darken-4">Weather Dashboard<i
-            class="material-icons right">more_vert</i></span>
-        <p><a href="#">This is a link</a></p>
-      </div>
-      <div class="card-reveal">
-        <span class="card-title grey-text text-darken-4">Weather Dashboard<i
-            class="material-icons right">close</i></span>
-        <p>This is a simple quiz, written in javascript with a classic Final Fantasy theme. It is a timed quiz
-          and each wrong question deducts time. Remaining time left results in your score.</p>
-      </div>
-    </div>
-    <!-- end card -->
   </div>
+  <!-- parallax -->
+  <div class="parallax-container">
+    <div class="parallax">
+      <img src="./images/parallax4.jpg">
+    </div>
+  </div>
+  <!-- parallax -->
+  <div id="portfolio"></div>
+  <div class="container">
+    <div class="row">
+      <!-- first card -->
+      <div class="col s12 m6">
+        <div class="card">
+          <div class="card-image">
+            <img class="responsive-img" src="images/ffquiz.jpg">
+            <a href="https://merkraith.github.io/Final-Fantasy-Quiz/"
+              class="btn-floating btn-large halfway-fab waves-effect waves-light blue"><i
+                class="material-icons">web</i></a>
+          </div>
+          <div class="card-content">
+            <span class="card-title" id="title-text">Final Fantasy Quiz</span>
+            <p>This is a fun quiz, written in javascript with a classic Final Fantasy theme. It is a timed quiz
+              and each wrong question deducts time. Remaining time left results in your score.
+            </p>
+          </div>
+        </div>
+      </div>
+      <!-- second card -->
+      <div class="col s12 m6">
+        <div class="card">
+          <div class="card-image">
+            <img class="responsive-img" src="images/weather.jpg">
+            <a href="https://merkraith.github.io/Weather-Dashboard/"
+              class="btn-floating btn-large halfway-fab waves-effect waves-light blue"><i
+                class="material-icons">web</i></a>
+          </div>
+          <div class="card-content">
+            <span class="card-title" id="title-text2">Weather Dashboard</span>
+            <p>The weather dashboard lets the user enter in different cities to get current weather, and a 5 day
+              forecast.
+              Previous searches are saved as a button to revisit.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- end card -->
+
   <!-- parallax -->
   <div class="parallax-container">
     <div class="parallax">
@@ -203,27 +224,22 @@
   <footer class="page-footer">
     <div class="container">
       <div class="row">
-        <div class="col l6 s12">
-          <h5 class="white-text">Footer Content</h5>
-          <p class="grey-text text-lighten-4">You can use rows and columns here to organize your footer content.</p>
-        </div>
-        <div class="col l4 offset-l2 s12">
-          <h5 class="white-text">Links</h5>
+        <div class="col l6 s12 center-align">
+          <h5 class="white-text">My skills</h5>
           <ul>
-            <li><a class="grey-text text-lighten-3" href="#!">Link 1</a></li>
-            <li><a class="grey-text text-lighten-3" href="#!">Link 2</a></li>
-            <li><a class="grey-text text-lighten-3" href="#!">Link 3</a></li>
-            <li><a class="grey-text text-lighten-3" href="#!">Link 4</a></li>
+            <img src="./images/hcj.png" class="skills">
+            <img src="./images/node.png" class="skills"></a>
+            <img src="./images/sql.png" class="skills"></a>
+            <img src="./images/handlebars.png" class="skills"></a>
+
           </ul>
         </div>
       </div>
-    </div>
-    <div class="footer-copyright">
-      <div class="container">
-        © 2020 Copyright Text
-        <a class="grey-text text-lighten-4 right" href="#!">More Links</a>
+      <div class="footer-copyright">
+        <div class="container">
+          © 2020 Copyright Text
+        </div>
       </div>
-    </div>
   </footer>
 
 
@@ -232,4 +248,5 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
   <script src="script.js"></script>
 </body>
+
 </html>

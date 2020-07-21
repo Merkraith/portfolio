@@ -44,9 +44,16 @@ body {
     font-family: 'Open Sans', sans-serif;   
 }
 
-#project-txt {
-    font-size: 56px;
-    text-align: center;
+#title-text{
+    font-weight: 500;
+    margin: 5px 0px 15px 0px;
+    font-size: 36px;
+}
+
+#title-text2{
+    font-weight: 500;
+    margin: 5px 0px 15px 0px;
+    font-size: 32px;
 }
 
 h2 {
@@ -56,9 +63,21 @@ h2 {
 }
 
 .card {
- margin: 10px 5px 0px 5px;
+ margin: 20px 30px 5px 30px;
 }
 
 .page-footer {
     background-color: darkslategray;
+}
+
+.about-btn {
+    height: 75px;
+    width: 75px;
+    margin: 0px 10px 0px 0px;
+}
+
+.skills {
+    height: 100px;
+    width: 150px;
+    margin: 0px 15px 0px 15px;
 }
