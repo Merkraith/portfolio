@@ -49,10 +49,16 @@ body {
     text-align: center;
 }
 
-h1 {
+h2 {
     color: white;
     margin: 10px 0px 20px 0px;
     font-family: 'Open Sans', sans-serif;   
-    font-size: 72px;
 }
 
+.card {
+ margin: 10px 5px 0px 5px;
+}
+
+.page-footer {
+    background-color: darkslategray;
+}

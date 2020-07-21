@@ -17,34 +17,32 @@
 </head>
 
 <body>
-
   <div class="navbar-fixed">
     <nav>
       <div class="nav-wrapper">
         <a href="#!" class="brand-logo">Mark Heil's Portfolio</a>
         <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
         <ul class="right hide-on-med-and-down">
-          <li><a href="sass.html">About Me</a></li>
-          <li><a href="badges.html">Group Projects</a></li>
-          <li><a href="collapsible.html">Portfolio</a></li>
-          
+          <li><a href="./index.html#about">About Me</a></li>
+          <li><a href="./index.html#group">Group Projects</a></li>
+          <li><a href="./index.html#portfolio">Portfolio</a></li>
         </ul>
       </div>
     </nav>
-  
     <ul class="sidenav" id="mobile-demo">
-      <li><a href="sass.html">Sass</a></li>
-      <li><a href="badges.html">Group Projects</a></li>
-      <li><a href="collapsible.html">Portfolio</a></li>
+      <li><a href="./index.html#about">About Me</a></li>
+      <li><a href="./index.html#group">Group Projects</a></li>
+      <li><a href="./index.html#portfolio">Portfolio</a></li>
     </ul>
   </div>
-
+  <!-- parallax -->
   <div class="parallax-container">
     <div class="parallax">
       <img src="./images/parallax4.jpg">
     </div>
   </div>
-
+  <!-- parallax -->
+  <div id="about"></div>
   <div class="row justify-content-center" id="about-bg">
     <div class="row no-gutters">
       <div class="col-md-1"></div>
@@ -55,10 +53,13 @@
       <div class="col-md-6 valign-wrapper" id="white-bg">
         <div class="card-body" id="white-bg">
           <h5 class="card-title" id="mark-txt">Mark Heil</h5>
+
+         
+          
+
           <p class="card-text valign-wrapper" id="about-txt">
             Hello, I am an up and coming Web Developer with a
             Printing and Publishing background.
-
             Originally from Wisconsin, I moved out west here to Seattle in 2016
             to seek adventure and new opportunities. Outside of my work I am a family man,
             love to travel, enjoy watching movies, playing video games and cooking.</p>
@@ -67,23 +68,25 @@
       <div class="col-md-1"></div>
     </div>
   </div>
-
+  <!-- parallax -->
   <div class="parallax-container">
     <div class="parallax">
       <img src="./images/parallax4.jpg">
     </div>
   </div>
-
-
+  <!-- parallax -->
+  <div id="group"></div>
   <div class="container">
-    <!-- <h1 class="center-align">Group Projects</h1> -->
+    <h2 class="center-align">Group Projects</h2>
     <div class="row">
+      <!-- first card -->
       <div class="col s12 m6">
         <div class="card">
           <div class="card-image">
             <img class="responsive-img" src="images/findnextgig.jpg">
             <span class="card-title" id="project-txt">Find Next Gig</span>
-            <a class="btn-floating halfway-fab waves-effect waves-light blue"><i class="material-icons">add</i></a>
+            <a href="https://merkraith.github.io/Band-Tour-Manager/"
+              class="btn-floating halfway-fab waves-effect waves-light blue"><i class="material-icons">web</i></a>
           </div>
           <div class="card-content">
             <p>My first group project in UW Coding Bootcamp. We developed a web based application
@@ -93,13 +96,14 @@
           </div>
         </div>
       </div>
-
+      <!-- second card -->
       <div class="col s12 m6">
         <div class="card">
           <div class="card-image">
             <img class="responsive-img" src="images/watcher.jpg">
             <span class="card-title" id="project-txt">Watcher</span>
-            <a class="btn-floating halfway-fab waves-effect waves-light blue"><i class="material-icons">add</i></a>
+            <a href="https://quiet-shelf-40896.herokuapp.com/"
+              class="btn-floating halfway-fab waves-effect waves-light blue"><i class="material-icons">web</i></a>
           </div>
           <div class="card-content">
             <p>My second group project in UW Coding Bootcamp. We developed a neighborhood watch type application
@@ -111,15 +115,116 @@
       </div>
     </div>
   </div>
-
-
+  <!-- parallax -->
   <div class="parallax-container">
     <div class="parallax">
       <img src="./images/parallax4.jpg">
     </div>
   </div>
-
-
+  <!-- parallax -->
+  <div id="portfolio"></div>
+  <div class="row justify-content-center align-items">
+    <!-- row of 4 cards -->
+    <div class="card">
+      <div class="card-image waves-effect waves-block waves-light">
+        <img class="activator" src="./images/pwgen.jpg">
+      </div>
+      <div class="card-content">
+        <span class="card-title activator grey-text text-darken-4">Password Generator<i
+            class="material-icons right">more_vert</i></span>
+        <p><a href="#">This is a link</a></p>
+      </div>
+      <div class="card-reveal">
+        <span class="card-title grey-text text-darken-4">Password Generator<i
+            class="material-icons right">close</i></span>
+        <p>This is a simple quiz, written in javascript with a classic Final Fantasy theme. It is a timed quiz
+          and each wrong question deducts time. Remaining time left results in your score.</p>
+      </div>
+    </div>
+    <!-- end card -->
+    <div class="card">
+      <div class="card-image waves-effect waves-block waves-light">
+        <img class="activator" src="./images/ffquiz.jpg">
+      </div>
+      <div class="card-content">
+        <span class="card-title activator grey-text text-darken-4">Final Fantasy Quiz<i
+            class="material-icons right">more_vert</i></span>
+        <p><a href="#">This is a link</a></p>
+      </div>
+      <div class="card-reveal">
+        <span class="card-title grey-text text-darken-4">Final Fantasy Quiz<i
+            class="material-icons right">close</i></span>
+        <p>This is a simple quiz, written in javascript with a classic Final Fantasy theme. It is a timed quiz
+          and each wrong question deducts time. Remaining time left results in your score.</p>
+      </div>
+    </div>
+    <!-- end card -->
+    <div class="card">
+      <div class="card-image waves-effect waves-block waves-light">
+        <img class="activator" src="./images/workdayplanner.jpg">
+      </div>
+      <div class="card-content">
+        <span class="card-title activator grey-text text-darken-4">Workday Planner<i
+            class="material-icons right">more_vert</i></span>
+        <p><a href="#">This is a link</a></p>
+      </div>
+      <div class="card-reveal">
+        <span class="card-title grey-text text-darken-4">Workday Planner<i class="material-icons right">close</i></span>
+        <p>This is a simple quiz, written in javascript with a classic Final Fantasy theme. It is a timed quiz
+          and each wrong question deducts time. Remaining time left results in your score.</p>
+      </div>
+    </div>
+    <!-- end card -->
+    <div class="card">
+      <div class="card-image waves-effect waves-block waves-light">
+        <img class="activator" src="./images/weather.jpg">
+      </div>
+      <div class="card-content">
+        <span class="card-title activator grey-text text-darken-4">Weather Dashboard<i
+            class="material-icons right">more_vert</i></span>
+        <p><a href="#">This is a link</a></p>
+      </div>
+      <div class="card-reveal">
+        <span class="card-title grey-text text-darken-4">Weather Dashboard<i
+            class="material-icons right">close</i></span>
+        <p>This is a simple quiz, written in javascript with a classic Final Fantasy theme. It is a timed quiz
+          and each wrong question deducts time. Remaining time left results in your score.</p>
+      </div>
+    </div>
+    <!-- end card -->
+  </div>
+  <!-- parallax -->
+  <div class="parallax-container">
+    <div class="parallax">
+      <img src="./images/parallax4.jpg">
+    </div>
+  </div>
+  <!-- parallax -->
+  <footer class="page-footer">
+    <div class="container">
+      <div class="row">
+        <div class="col l6 s12">
+          <h5 class="white-text">Footer Content</h5>
+          <p class="grey-text text-lighten-4">You can use rows and columns here to organize your footer content.</p>
+        </div>
+        <div class="col l4 offset-l2 s12">
+          <h5 class="white-text">Links</h5>
+          <ul>
+            <li><a class="grey-text text-lighten-3" href="#!">Link 1</a></li>
+            <li><a class="grey-text text-lighten-3" href="#!">Link 2</a></li>
+            <li><a class="grey-text text-lighten-3" href="#!">Link 3</a></li>
+            <li><a class="grey-text text-lighten-3" href="#!">Link 4</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="footer-copyright">
+      <div class="container">
+        © 2020 Copyright Text
+        <a class="grey-text text-lighten-4 right" href="#!">More Links</a>
+      </div>
+    </div>
+  </footer>
 
 
 
@@ -127,14 +232,4 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
   <script src="script.js"></script>
 </body>
-<!-- <footer>
-  <div class="section white">
-    <div class="row container">
-     <p class="grey-text text-darken-3 lighten-3"> Cebu CM Solutions
-Outside      quis augue ac sem suscipit laoreet in quis ipsum. Curabitur enim sapien
-    </p>
-   </div>
-  </div>
-</footer> -->
-
 </html>
