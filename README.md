@@ -4,7 +4,7 @@
 
 ## Link To Deployed Site
 
-[Updated Portfolio](https://merkraith.github.io/Portfolio/)
+[Updated Portfolio](https://merkraith.github.io/portfolio/)
 
 ## Overview
 
